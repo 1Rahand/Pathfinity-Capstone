@@ -1,6 +1,12 @@
 # Pathfinity: Integrated Educational & Career Development Ecosystem
 
-**Senior Capstone Project | American University of Iraq, Sulaimani (2024-2025)**
+**Senior Capstone Project | American University of Iraq, Sulaimani (Spring - 2025)**
+
+## Project Details
+- **iOS (TestFlight):** [Pathfinity TestFlight](https://testflight.apple.com/join/NTuEhcQf) (Note: Hosted via peer account)
+- **Android (APK):** [Pathfinity apk](https://drive.google.com/drive/folders/13M3tkB-aEOw_geXsNe1W_U2a7CbvkOlb?usp=sharing)
+- **Capstone Poster:** [Capstone_Poster](https://drive.google.com/file/d/1gWhi9EWm3yng014khCVK7Inj-7JEFqx1/view?usp=sharing)
+
 
 ## Project Overview
 Pathfinity addresses the **"Practical Skills Gap"** in higher education by creating a digital ecosystem that bridges the disconnect between academic learning and industry requirements. The system connects Students, Alumni, Content Creators, and Corporate Recruiters through two distinct applications working in tandem.
