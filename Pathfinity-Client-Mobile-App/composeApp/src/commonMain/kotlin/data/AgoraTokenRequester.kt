@@ -37,7 +37,7 @@ object AgoraTokenRequester {
 
 
       // Make the HTTP request to the token generation service
-      val response = httpClient.post("https://agora-live.onrender.com/generate-subscriber-token") {
+      val response = httpClient.post("https://pathfinity-capstone-production.up.railway.app/generate-subscriber-token") {
          contentType(ContentType.Application.Json)
          setBody(tokenRequest)
       }
