@@ -23,7 +23,7 @@ The solution relies on a split-client architecture allowing for real-time intera
 ## Tech Stack
 - **Student Client:** Built with **Kotlin** (Compose Multiplatform) for modern, reactive user experience.
 - **Admin & Multi-Role Portal:** Built with **Flutter** (Dart) for cross-platform manageability.
-- **Backend:** Supabase (PostgreSQL, Auth, Realtime).
+- **Main Database & Backend:** **Supabase** (PostgreSQL, Auth, Realtime) serves as the centralized database and backend infrastructure.
 
 ## Live Streaming Infrastructure
 To support high-quality interactive workshops, the platform integrates **Agora.io** for real-time broadcasting.
