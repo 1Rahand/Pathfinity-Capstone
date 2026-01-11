@@ -25,8 +25,9 @@ The solution relies on a split-client architecture allowing for real-time intera
 
 ## Live Streaming Infrastructure
 To support high-quality interactive workshops, the platform integrates **Agora.io** for real-time broadcasting.
-- **Video Engine:** Utilizes the Agora RTC SDK to ensure low-latency video and audio streaming between Creators and Students.
+- **Video Engine:** Utilizes the Agora RTC SDK to ensure low-latency video and audio streaming between Creators (Web) and Students (Mobile).
 - **Security Middleware:** A custom **Python (Flask)** server handles token generation, ensuring that only authenticated users with the correct RBAC permissions can publish or subscribe to streams.
+- **Availability Note:** The live streaming feature is currently **exclusive to the Android Client**. It is not available in the iOS (TestFlight) build.
 
 ## Contributors & Roles
 
