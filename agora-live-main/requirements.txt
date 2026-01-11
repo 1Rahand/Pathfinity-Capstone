@@ -1,0 +1,7 @@
+flask
+werkzeug
+flask-cors
+agora-token-builder
+gunicorn
+requests
+python-dotenv
