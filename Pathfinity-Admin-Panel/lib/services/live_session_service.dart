@@ -12,8 +12,7 @@ final liveSessionServiceProvider = Provider<LiveSessionService>((ref) {
 
 class LiveSessionService {
   final SupabaseClient _supabase = Supabase.instance.client;
-  final String _agoraAppId =
-      'fbfce5a1035144b6b86cdf5758fe164b'; // Replace with your Agora App ID
+final String _agoraAppId = 'fbfce5a1035144b6b86cdf5758fe164b'; // Replace with your Agora App ID
   final String _tokenServerUrl =
       'https://pathfinity-capstone-production.up.railway.app/generate-token'; // Replace with your token server URL
 
