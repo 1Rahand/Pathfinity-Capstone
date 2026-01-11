@@ -26,7 +26,8 @@ The solution relies on a split-client architecture allowing for real-time intera
 ## Live Streaming Infrastructure
 To support high-quality interactive workshops, the platform integrates **Agora.io** for real-time broadcasting.
 - **Video Engine:** Utilizes the Agora RTC SDK to ensure low-latency video and audio streaming between Creators (Web) and Students (Mobile).
-- **Security Middleware:** A custom **Python (Flask)** server handles token generation, ensuring that only authenticated users with the correct RBAC permissions can publish or subscribe to streams.
+- **Security Middleware:** A custom **Python (Flask)** server, **hosted on Railway**, handles token generation to secure the streams.
+- **Server Deployment:** [Railway Deployment (Rahand's Profile)](https://railway.app/u/1Rahand)
 - **Availability Note:** The live streaming feature is currently **exclusive to the Android Client**. It is not available in the iOS (TestFlight) build.
 
 ## Contributors & Roles
