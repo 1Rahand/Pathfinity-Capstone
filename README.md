@@ -1,12 +1,12 @@
 # Pathfinity: Integrated Educational & Career Development Ecosystem
 
-**Senior Capstone Project | American University of Iraq, Sulaimani (Spring - 2025)**
+**Senior Capstone Project | American University of Iraq, Sulaimani (2024-2025)**
 
 ## Project Details
 - **iOS (TestFlight):** [Pathfinity TestFlight](https://testflight.apple.com/join/NTuEhcQf) (Note: Hosted via peer account)
 - **Android (APK):** [Pathfinity apk](https://drive.google.com/drive/folders/13M3tkB-aEOw_geXsNe1W_U2a7CbvkOlb?usp=sharing)
 - **Capstone Poster:** [Capstone_Poster](https://drive.google.com/file/d/1gWhi9EWm3yng014khCVK7Inj-7JEFqx1/view?usp=sharing)
-
+- **Project Link:** [Pathfinity-Capstone](https://github.com/1Rahand/Pathfinity-Capstone)
 
 ## Project Overview
 Pathfinity addresses the **"Practical Skills Gap"** in higher education by creating a digital ecosystem that bridges the disconnect between academic learning and industry requirements. The system connects Students, Alumni, Content Creators, and Corporate Recruiters through two distinct applications working in tandem.
@@ -22,6 +22,11 @@ The solution relies on a split-client architecture allowing for real-time intera
 - **Student Client:** Built with **Kotlin** (Compose Multiplatform) for modern, reactive user experience.
 - **Admin & Multi-Role Portal:** Built with **Flutter** (Dart) for cross-platform manageability.
 - **Backend:** Supabase (PostgreSQL, Auth, Realtime).
+
+## Live Streaming Infrastructure
+To support high-quality interactive workshops, the platform integrates **Agora.io** for real-time broadcasting.
+- **Video Engine:** Utilizes the Agora RTC SDK to ensure low-latency video and audio streaming between Creators and Students.
+- **Security Middleware:** A custom **Python (Flask)** server handles token generation, ensuring that only authenticated users with the correct RBAC permissions can publish or subscribe to streams.
 
 ## Contributors & Roles
 
