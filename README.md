@@ -7,16 +7,18 @@
 - **Android (APK):** [Pathfinity apk](https://drive.google.com/drive/folders/13M3tkB-aEOw_geXsNe1W_U2a7CbvkOlb?usp=sharing)
 - **Capstone Poster:** [Capstone_Poster](https://drive.google.com/file/d/1gWhi9EWm3yng014khCVK7Inj-7JEFqx1/view?usp=sharing)
 - **Project Link:** [Pathfinity-Capstone](https://github.com/1Rahand/Pathfinity-Capstone)
+- **Admin Access (Demo):** `Admin@gmail.com` | Password: `password`
 
 ## Project Overview
 Pathfinity addresses the **"Practical Skills Gap"** in higher education by creating a digital ecosystem that bridges the disconnect between academic learning and industry requirements. The system connects Students, Alumni, Content Creators, and Corporate Recruiters through two distinct applications working in tandem.
 
 ## System Architecture
-The solution relies on a split-client architecture allowing for real-time interaction between four distinct user roles:
-1. **Students:** Access to courses, internships, and mentorship.
+The solution relies on a split-client architecture allowing for real-time interaction between distinct user roles:
+1. **Students:** Access to **multi-video courses**, **live workshops**, internships, and mentorship.
 2. **Alumni:** Professional networking and mentorship chat functionality.
-3. **Creators:** Live-streaming tools for educational workshops.
+3. **Creators:** Tools to **create structured courses with multiple video lessons** and **host live-streaming sessions**.
 4. **Companies:** Recruitment portal for posting internships and reviewing applicants.
+5. **Super Admin:** Has absolute control to **accept, reject, and manage everything** in the app (users, content, internships).
 
 ## Tech Stack
 - **Student Client:** Built with **Kotlin** (Compose Multiplatform) for modern, reactive user experience.
@@ -53,7 +55,14 @@ To support high-quality interactive workshops, the platform integrates **Agora.i
 
 ## Key Features Implemented
 - **Role-Based Access Control (RBAC):** Secure authentication flows distinguishing between 4 distinct user types.
+- **Comprehensive Course Management:** Creators can upload full courses consisting of **multiple video episodes**. Students can browse these libraries, track their progress, and watch content on demand.
 - **Real-time Chat & Messaging:** Instant messaging for mentorship and live data updates.
-- **Live Streaming Integration:** Broadcasting tools for educational content.
+- **Live Streaming Integration:** Broadcasting tools for Creators and **real-time attendance** for Students.
 - **Internship Workflow:** End-to-end application and review system.
-- **Course Management:** Uploading and consuming educational video content.
+- **And Many More:** The app contains numerous other features and details designed for you to explore.
+
+## Future Roadmap: AI Integration
+While the current system provides a robust framework for connection, the next phase of development focuses on **Artificial Intelligence (AI)** to revolutionize the educational process. Planned AI integrations include:
+- **Personalized Learning Paths:** AI algorithms to recommend specific courses based on a student's career goals.
+- **Automated Resume Screening:** Assisting recruiters by matching student skills to internship requirements.
+- **Content Optimization:** Using AI to help creators structure their course content for maximum engagement.
