@@ -40,7 +40,7 @@ import ui.theme.AppTheme
 import ui.theme.animationDuration
 
 const val appVersion = "1.0.0"
-const val agoraId = "182923c551cb4d8884532d1e17a293a9"
+const val agoraId = "fbfce5a1035144b6b86cdf5758fe164b"
 
 @Composable
 @Preview
