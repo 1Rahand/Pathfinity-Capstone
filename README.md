@@ -63,6 +63,7 @@ To support high-quality interactive workshops, the platform integrates **Agora.i
 
 ## Future Roadmap: AI Integration
 While the current system provides a robust framework for connection, the next phase of development focuses on **Artificial Intelligence (AI)** to revolutionize the educational process. Planned AI integrations include:
+- **Intelligent Chatbot Tutor:** An interactive AI assistant designed to help students learn new languages and provide instant explanations for complex topics they find difficult.
 - **Personalized Learning Paths:** AI algorithms to recommend specific courses based on a student's career goals.
 - **Automated Resume Screening:** Assisting recruiters by matching student skills to internship requirements.
 - **Content Optimization:** Using AI to help creators structure their course content for maximum engagement.
